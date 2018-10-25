@@ -7,54 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		712A005821826E8B0041CEE6 /* BTLEManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 7170842921826572000F38BA /* BTLEManager.h */; };
-		712A005921826E8B0041CEE6 /* NSData+NSData_Conversion.h in Sources */ = {isa = PBXBuildFile; fileRef = 7170842621826570000F38BA /* NSData+NSData_Conversion.h */; };
-		712A005A21826E8B0041CEE6 /* MelodyManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 7170842C21826577000F38BA /* MelodyManager.h */; };
-		712A005B21826E8B0041CEE6 /* MelodySmart.h in Sources */ = {isa = PBXBuildFile; fileRef = 7170842D21826577000F38BA /* MelodySmart.h */; };
-		712A005C21826E8B0041CEE6 /* OtaStructs.h in Sources */ = {isa = PBXBuildFile; fileRef = 7170842E21826578000F38BA /* OtaStructs.h */; };
-		712A005D21826E980041CEE6 /* FirstViewController_iPad.xib in Sources */ = {isa = PBXBuildFile; fileRef = 717083BE218261FD000F38BA /* FirstViewController_iPad.xib */; };
-		712A005E21826E980041CEE6 /* FirstViewController_iPhone.xib in Sources */ = {isa = PBXBuildFile; fileRef = 717083C5218261FF000F38BA /* FirstViewController_iPhone.xib */; };
-		712A005F21826E980041CEE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7170843521826B48000F38BA /* main.m */; };
-		712A006021826E980041CEE6 /* SimpleImageAppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = BCB5E7FB14E605A900701302 /* SimpleImageAppDelegate.h */; };
-		712A006321826E980041CEE6 /* FirstViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 7170839021825F2B000F38BA /* FirstViewController.h */; };
-		712A006421826E980041CEE6 /* SecondViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 7170843A21826C10000F38BA /* SecondViewController.h */; };
-		712A006621826E980041CEE6 /* SecondViewController_iPad.xib in Sources */ = {isa = PBXBuildFile; fileRef = 717083B7218261FB000F38BA /* SecondViewController_iPad.xib */; };
-		712A006721826E980041CEE6 /* SecondViewController_iPhone.xib in Sources */ = {isa = PBXBuildFile; fileRef = 717083C6218261FF000F38BA /* SecondViewController_iPhone.xib */; };
 		712A006A21826E980041CEE6 /* SplashViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 7170839521825FB2000F38BA /* SplashViewController.xib */; };
+		712A007A218274DC0041CEE6 /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712A0076218274DB0041CEE6 /* FirstViewController_iPad.xib */; };
+		712A007B218274DC0041CEE6 /* FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712A0079218274DC0041CEE6 /* FirstViewController_iPhone.xib */; };
+		712A00812182775F0041CEE6 /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 712A00802182775E0041CEE6 /* SecondViewController_iPad.xib */; };
+		712A008D218279490041CEE6 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 712A008B218279480041CEE6 /* NSData+Base64.m */; };
+		712A0090218279650041CEE6 /* BTLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 712A008E218279640041CEE6 /* BTLEManager.m */; };
 		7170839321825F2C000F38BA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7170839121825F2B000F38BA /* FirstViewController.m */; };
 		7170839721825FB3000F38BA /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7170839521825FB2000F38BA /* SplashViewController.xib */; };
-		717083A7218261AA000F38BA /* GCDObjC.h in Resources */ = {isa = PBXBuildFile; fileRef = 7170839F218261A6000F38BA /* GCDObjC.h */; };
 		717083A8218261AA000F38BA /* GCDSemaphore.m in Resources */ = {isa = PBXBuildFile; fileRef = 717083A0218261A6000F38BA /* GCDSemaphore.m */; };
-		717083A9218261AA000F38BA /* GCDQueue.h in Resources */ = {isa = PBXBuildFile; fileRef = 717083A1218261A7000F38BA /* GCDQueue.h */; };
 		717083AA218261AA000F38BA /* GCDGroup.m in Resources */ = {isa = PBXBuildFile; fileRef = 717083A2218261A8000F38BA /* GCDGroup.m */; };
-		717083AB218261AA000F38BA /* GCDMacros.h in Resources */ = {isa = PBXBuildFile; fileRef = 717083A3218261A8000F38BA /* GCDMacros.h */; };
-		717083AC218261AA000F38BA /* GCDGroup.h in Resources */ = {isa = PBXBuildFile; fileRef = 717083A4218261A8000F38BA /* GCDGroup.h */; };
 		717083AD218261AA000F38BA /* GCDQueue.m in Resources */ = {isa = PBXBuildFile; fileRef = 717083A5218261A9000F38BA /* GCDQueue.m */; };
-		717083AE218261AA000F38BA /* GCDSemaphore.h in Resources */ = {isa = PBXBuildFile; fileRef = 717083A6218261A9000F38BA /* GCDSemaphore.h */; };
-		717083D921826203000F38BA /* Funny-Baby-desktop-Wallpapers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 717083B0218261F9000F38BA /* Funny-Baby-desktop-Wallpapers.jpg */; };
-		717083DB21826203000F38BA /* GroovTubeAppIcon120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 717083B3218261FA000F38BA /* GroovTubeAppIcon120x120.png */; };
-		717083DE21826203000F38BA /* GroovTubeAppIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 717083B6218261FB000F38BA /* GroovTubeAppIcon57x57.png */; };
-		717083DF21826203000F38BA /* SecondViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717083B7218261FB000F38BA /* SecondViewController_iPad.xib */; };
-		717083E121826203000F38BA /* GroovTubeAppIcon76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 717083BA218261FC000F38BA /* GroovTubeAppIcon76x76.png */; };
-		717083E221826203000F38BA /* GroovTubeAppIcon40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 717083BB218261FC000F38BA /* GroovTubeAppIcon40x40.png */; };
-		717083E321826203000F38BA /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 717083BC218261FD000F38BA /* Splash.png */; };
-		717083E421826203000F38BA /* GroovTubeAppIcon152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 717083BD218261FD000F38BA /* GroovTubeAppIcon152x152.png */; };
-		717083E521826203000F38BA /* FirstViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717083BE218261FD000F38BA /* FirstViewController_iPad.xib */; };
-		717083E721826203000F38BA /* tick.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 717083C0218261FE000F38BA /* tick.aiff */; };
-		717083E821826203000F38BA /* GroovTubeAppIcon144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 717083C1218261FE000F38BA /* GroovTubeAppIcon144x144.png */; };
-		717083E921826203000F38BA /* giraffe-614141_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 717083C2218261FE000F38BA /* giraffe-614141_1280.jpg */; };
-		717083EB21826203000F38BA /* FirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717083C5218261FF000F38BA /* FirstViewController_iPhone.xib */; };
-		717083EC21826203000F38BA /* SecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717083C6218261FF000F38BA /* SecondViewController_iPhone.xib */; };
-		717083ED21826203000F38BA /* Launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 717083C7218261FF000F38BA /* Launch.xib */; };
-		717083EE21826203000F38BA /* Bluetooth-DISCONNECTED.png in Resources */ = {isa = PBXBuildFile; fileRef = 717083C9218261FF000F38BA /* Bluetooth-DISCONNECTED.png */; };
-		717083EF21826203000F38BA /* Bluetooth-CONNECTED.png in Resources */ = {isa = PBXBuildFile; fileRef = 717083CA21826200000F38BA /* Bluetooth-CONNECTED.png */; };
-		717083F021826203000F38BA /* GroovTubeAppIcon58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 717083CB21826200000F38BA /* GroovTubeAppIcon58x58.png */; };
-		717083F121826203000F38BA /* GroovTubeAppIcon80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 717083CC21826200000F38BA /* GroovTubeAppIcon80x80.png */; };
-		717083F221826203000F38BA /* GroovTubeAppIcon50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 717083CD21826200000F38BA /* GroovTubeAppIcon50x50.png */; };
-		717083F321826203000F38BA /* GroovTubeAppIcon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 717083CE21826201000F38BA /* GroovTubeAppIcon114x114.png */; };
-		717083F721826203000F38BA /* GroovTubeAppIcon29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 717083D221826202000F38BA /* GroovTubeAppIcon29x29.png */; };
-		717083F821826203000F38BA /* GroovTubeAppIcon100x100.png in Resources */ = {isa = PBXBuildFile; fileRef = 717083D321826202000F38BA /* GroovTubeAppIcon100x100.png */; };
-		717083F921826203000F38BA /* GroovTubeAppIcon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 717083D621826203000F38BA /* GroovTubeAppIcon72x72.png */; };
 		7170842A21826572000F38BA /* BTLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7170842721826571000F38BA /* BTLEManager.m */; };
 		7170842B21826572000F38BA /* NSData+NSData_Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7170842821826571000F38BA /* NSData+NSData_Conversion.m */; };
 		717084302182658E000F38BA /* libMelodySmart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7170842F2182658E000F38BA /* libMelodySmart.a */; };
@@ -67,15 +30,12 @@
 		BCB5E7EF14E605A900701302 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5E7EE14E605A900701302 /* Foundation.framework */; };
 		BCB5E7F114E605A900701302 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5E7F014E605A900701302 /* CoreGraphics.framework */; };
 		BCB5E7F714E605A900701302 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCB5E7F514E605A900701302 /* InfoPlist.strings */; };
-		BCB5E7F914E605A900701302 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5E7F814E605A900701302 /* main.m */; };
 		BCB5E80614E605A900701302 /* SimpleImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5E80514E605A900701302 /* SimpleImageViewController.m */; };
 		BCB5E82314E62A3C00701302 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5E81E14E62A3C00701302 /* AVFoundation.framework */; };
 		BCB5E82414E62A3C00701302 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5E81F14E62A3C00701302 /* CoreMedia.framework */; };
 		BCB5E82514E62A3C00701302 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5E82014E62A3C00701302 /* CoreVideo.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		BCB5E82614E62A3C00701302 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5E82114E62A3C00701302 /* OpenGLES.framework */; };
 		BCB5E82714E62A3C00701302 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB5E82214E62A3C00701302 /* QuartzCore.framework */; };
-		BCB5E86314E6F05A00701302 /* WID-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCB5E86214E6F05A00701302 /* WID-small.jpg */; };
-		BCB5E86514E6F1D700701302 /* Lambeau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BCB5E86414E6F1D700701302 /* Lambeau.jpg */; };
 		BCC9005F18DA278200A5A5C7 /* lookup_amatorka.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC9005E18DA278200A5A5C7 /* lookup_amatorka.png */; };
 		BCF8672A1725A6B400912E34 /* libGPUImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCF867251725A69A00912E34 /* libGPUImage.a */; };
 		E5066F511855A9F2008C7682 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5066F501855A9F2008C7682 /* Default-568h@2x.png */; };
@@ -106,10 +66,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7170839021825F2B000F38BA /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		712A0076218274DB0041CEE6 /* FirstViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstViewController_iPad.xib; path = "GroovTube iOS12/FirstViewController_iPad.xib"; sourceTree = SOURCE_ROOT; };
+		712A0079218274DC0041CEE6 /* FirstViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstViewController_iPhone.xib; path = "GroovTube iOS12/FirstViewController_iPhone.xib"; sourceTree = SOURCE_ROOT; };
+		712A007C218274F80041CEE6 /* SimpleImageAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleImageAppDelegate.h; sourceTree = "<group>"; };
+		712A00802182775E0041CEE6 /* SecondViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController_iPad.xib; sourceTree = "<group>"; };
+		712A0082218277860041CEE6 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		712A008A218279040041CEE6 /* SimpleImageFilter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleImageFilter-Prefix.pch"; sourceTree = "<group>"; };
+		712A008B218279480041CEE6 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		712A008C218279480041CEE6 /* NSData+NSData_Conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NSData_Conversion.h"; sourceTree = "<group>"; };
+		712A008E218279640041CEE6 /* BTLEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTLEManager.m; sourceTree = "<group>"; };
+		712A008F218279650041CEE6 /* BTLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTLEManager.h; sourceTree = "<group>"; };
+		712A00912182796D0041CEE6 /* MelodyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MelodyManager.h; sourceTree = "<group>"; };
+		712A00922182796E0041CEE6 /* libMelodySmart.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMelodySmart.a; sourceTree = "<group>"; };
+		712A00942182796F0041CEE6 /* OtaStructs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtaStructs.h; sourceTree = "<group>"; };
+		712A0098218279CD0041CEE6 /* NSData+Base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 		7170839121825F2B000F38BA /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		7170839521825FB2000F38BA /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
-		7170839B218260C0000F38BA /* lookup_amatorka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lookup_amatorka.png; sourceTree = "<group>"; };
 		7170839F218261A6000F38BA /* GCDObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GCDObjC.h; path = GCDObjC/GCDObjC.h; sourceTree = "<group>"; };
 		717083A0218261A6000F38BA /* GCDSemaphore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GCDSemaphore.m; path = GCDObjC/GCDSemaphore.m; sourceTree = "<group>"; };
 		717083A1218261A7000F38BA /* GCDQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GCDQueue.h; path = GCDObjC/GCDQueue.h; sourceTree = "<group>"; };
@@ -118,36 +90,11 @@
 		717083A4218261A8000F38BA /* GCDGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GCDGroup.h; path = GCDObjC/GCDGroup.h; sourceTree = "<group>"; };
 		717083A5218261A9000F38BA /* GCDQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GCDQueue.m; path = GCDObjC/GCDQueue.m; sourceTree = "<group>"; };
 		717083A6218261A9000F38BA /* GCDSemaphore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GCDSemaphore.h; path = GCDObjC/GCDSemaphore.h; sourceTree = "<group>"; };
-		717083B0218261F9000F38BA /* Funny-Baby-desktop-Wallpapers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Funny-Baby-desktop-Wallpapers.jpg"; sourceTree = "<group>"; };
-		717083B3218261FA000F38BA /* GroovTubeAppIcon120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GroovTubeAppIcon120x120.png; sourceTree = "<group>"; };
 		717083B5218261FB000F38BA /* lookup_amatorka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lookup_amatorka.png; path = ../../../../../Dev/Rocudo/GroovTube/SimpleImageFilter/lookup_amatorka.png; sourceTree = "<group>"; };
-		717083B6218261FB000F38BA /* GroovTubeAppIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GroovTubeAppIcon57x57.png; sourceTree = "<group>"; };
-		717083B7218261FB000F38BA /* SecondViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController_iPad.xib; sourceTree = "<group>"; };
-		717083BA218261FC000F38BA /* GroovTubeAppIcon76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GroovTubeAppIcon76x76.png; sourceTree = "<group>"; };
-		717083BB218261FC000F38BA /* GroovTubeAppIcon40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GroovTubeAppIcon40x40.png; sourceTree = "<group>"; };
-		717083BC218261FD000F38BA /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
-		717083BD218261FD000F38BA /* GroovTubeAppIcon152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GroovTubeAppIcon152x152.png; sourceTree = "<group>"; };
-		717083BE218261FD000F38BA /* FirstViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController_iPad.xib; sourceTree = "<group>"; };
 		717083BF218261FD000F38BA /* Lambeau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Lambeau.jpg; path = ../../../../../Dev/Rocudo/GroovTube/SimpleImageFilter/Lambeau.jpg; sourceTree = "<group>"; };
-		717083C0218261FE000F38BA /* tick.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = tick.aiff; sourceTree = "<group>"; };
-		717083C1218261FE000F38BA /* GroovTubeAppIcon144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GroovTubeAppIcon144x144.png; sourceTree = "<group>"; };
-		717083C2218261FE000F38BA /* giraffe-614141_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giraffe-614141_1280.jpg"; sourceTree = "<group>"; };
 		717083C3218261FE000F38BA /* SimpleImageFilter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SimpleImageFilter-Info.plist"; path = "../../../../../Dev/Rocudo/GroovTube/SimpleImageFilter/SimpleImageFilter-Info.plist"; sourceTree = "<group>"; };
-		717083C5218261FF000F38BA /* FirstViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController_iPhone.xib; sourceTree = "<group>"; };
-		717083C6218261FF000F38BA /* SecondViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController_iPhone.xib; sourceTree = "<group>"; };
-		717083C7218261FF000F38BA /* Launch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Launch.xib; sourceTree = "<group>"; };
-		717083C9218261FF000F38BA /* Bluetooth-DISCONNECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bluetooth-DISCONNECTED.png"; sourceTree = "<group>"; };
-		717083CA21826200000F38BA /* Bluetooth-CONNECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bluetooth-CONNECTED.png"; sourceTree = "<group>"; };
-		717083CB21826200000F38BA /* GroovTubeAppIcon58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GroovTubeAppIcon58x58.png; sourceTree = "<group>"; };
-		717083CC21826200000F38BA /* GroovTubeAppIcon80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GroovTubeAppIcon80x80.png; sourceTree = "<group>"; };
-		717083CD21826200000F38BA /* GroovTubeAppIcon50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GroovTubeAppIcon50x50.png; sourceTree = "<group>"; };
-		717083CE21826201000F38BA /* GroovTubeAppIcon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GroovTubeAppIcon114x114.png; sourceTree = "<group>"; };
-		717083D021826201000F38BA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../../../../Dev/Rocudo/GroovTube/SimpleImageFilter/main.m; sourceTree = "<group>"; };
 		717083D121826201000F38BA /* WID-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "WID-small.jpg"; path = "../../../../../Dev/Rocudo/GroovTube/SimpleImageFilter/WID-small.jpg"; sourceTree = "<group>"; };
-		717083D221826202000F38BA /* GroovTubeAppIcon29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GroovTubeAppIcon29x29.png; sourceTree = "<group>"; };
-		717083D321826202000F38BA /* GroovTubeAppIcon100x100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GroovTubeAppIcon100x100.png; sourceTree = "<group>"; };
 		717083D421826202000F38BA /* SimpleImageFilter-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SimpleImageFilter-Prefix.pch"; path = "../../../../../Dev/Rocudo/GroovTube/SimpleImageFilter/SimpleImageFilter-Prefix.pch"; sourceTree = "<group>"; };
-		717083D621826203000F38BA /* GroovTubeAppIcon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GroovTubeAppIcon72x72.png; sourceTree = "<group>"; };
 		717083FE218263D2000F38BA /* SimpleImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SimpleImageViewController.h; path = ../../../../../Dev/Rocudo/GroovTube/SimpleImageFilter/SimpleImageViewController.h; sourceTree = "<group>"; };
 		71708402218263D4000F38BA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../../../../../Dev/Rocudo/GroovTube/SimpleImageFilter/SecondViewController.m; sourceTree = "<group>"; };
 		71708405218263D6000F38BA /* SplashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SplashViewController.m; path = ../../../../../Dev/Rocudo/GroovTube/SimpleImageFilter/SplashViewController.m; sourceTree = "<group>"; };
@@ -164,7 +111,6 @@
 		71708417218264D7000F38BA /* GroovTubeAppIcon76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GroovTubeAppIcon76x76.png; path = ../../../../../Dev/Rocudo/GroovTube/SimpleImageFilter/GroovTube_ICONS/GroovTubeAppIcon76x76.png; sourceTree = "<group>"; };
 		71708418218264D8000F38BA /* GroovTubeAppIcon152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GroovTubeAppIcon152x152.png; path = ../../../../../Dev/Rocudo/GroovTube/SimpleImageFilter/GroovTube_ICONS/GroovTubeAppIcon152x152.png; sourceTree = "<group>"; };
 		71708419218264D8000F38BA /* GroovTubeAppIcon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GroovTubeAppIcon72x72.png; path = ../../../../../Dev/Rocudo/GroovTube/SimpleImageFilter/GroovTube_ICONS/GroovTubeAppIcon72x72.png; sourceTree = "<group>"; };
-		7170842621826570000F38BA /* NSData+NSData_Conversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NSData_Conversion.h"; sourceTree = "<group>"; };
 		7170842721826571000F38BA /* BTLEManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTLEManager.m; sourceTree = "<group>"; };
 		7170842821826571000F38BA /* NSData+NSData_Conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSData_Conversion.m"; sourceTree = "<group>"; };
 		7170842921826572000F38BA /* BTLEManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTLEManager.h; sourceTree = "<group>"; };
@@ -184,11 +130,7 @@
 		BCB5E7EC14E605A900701302 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BCB5E7EE14E605A900701302 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BCB5E7F014E605A900701302 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		BCB5E7F414E605A900701302 /* SimpleImageFilter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleImageFilter-Info.plist"; sourceTree = "<group>"; };
 		BCB5E7F614E605A900701302 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BCB5E7F814E605A900701302 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BCB5E7FA14E605A900701302 /* SimpleImageFilter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleImageFilter-Prefix.pch"; sourceTree = "<group>"; };
-		BCB5E7FB14E605A900701302 /* SimpleImageAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleImageAppDelegate.h; sourceTree = "<group>"; };
 		BCB5E80514E605A900701302 /* SimpleImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleImageViewController.m; sourceTree = "<group>"; };
 		BCB5E80C14E610BE00701302 /* GPUImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GPUImage.xcodeproj; path = ../../../framework/GPUImage.xcodeproj; sourceTree = "<group>"; };
 		BCB5E81E14E62A3C00701302 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -196,8 +138,6 @@
 		BCB5E82014E62A3C00701302 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		BCB5E82114E62A3C00701302 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BCB5E82214E62A3C00701302 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		BCB5E86214E6F05A00701302 /* WID-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WID-small.jpg"; sourceTree = "<group>"; };
-		BCB5E86414E6F1D700701302 /* Lambeau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lambeau.jpg; sourceTree = "<group>"; };
 		BCC9005E18DA278200A5A5C7 /* lookup_amatorka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lookup_amatorka.png; path = ../../../../framework/Resources/lookup_amatorka.png; sourceTree = "<group>"; };
 		E5066F501855A9F2008C7682 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -243,11 +183,18 @@
 			children = (
 				7170842F2182658E000F38BA /* libMelodySmart.a */,
 				7170842921826572000F38BA /* BTLEManager.h */,
+				712A008F218279650041CEE6 /* BTLEManager.h */,
 				7170842721826571000F38BA /* BTLEManager.m */,
-				7170842621826570000F38BA /* NSData+NSData_Conversion.h */,
+				712A008B218279480041CEE6 /* NSData+Base64.m */,
+				712A008C218279480041CEE6 /* NSData+NSData_Conversion.h */,
+				712A008E218279640041CEE6 /* BTLEManager.m */,
+				712A00922182796E0041CEE6 /* libMelodySmart.a */,
 				7170842C21826577000F38BA /* MelodyManager.h */,
+				712A0098218279CD0041CEE6 /* NSData+Base64.h */,
 				7170842D21826577000F38BA /* MelodySmart.h */,
 				7170842E21826578000F38BA /* OtaStructs.h */,
+				712A00912182796D0041CEE6 /* MelodyManager.h */,
+				712A00942182796F0041CEE6 /* OtaStructs.h */,
 				7170842821826571000F38BA /* NSData+NSData_Conversion.m */,
 			);
 			name = BTLEManager;
@@ -291,30 +238,24 @@
 		BCB5E7F214E605A900701302 /* SimpleImageFilter */ = {
 			isa = PBXGroup;
 			children = (
-				717083BE218261FD000F38BA /* FirstViewController_iPad.xib */,
-				717083C5218261FF000F38BA /* FirstViewController_iPhone.xib */,
+				712A0076218274DB0041CEE6 /* FirstViewController_iPad.xib */,
+				712A0079218274DC0041CEE6 /* FirstViewController_iPhone.xib */,
 				7170843521826B48000F38BA /* main.m */,
-				BCB5E7FB14E605A900701302 /* SimpleImageAppDelegate.h */,
+				712A007C218274F80041CEE6 /* SimpleImageAppDelegate.h */,
 				7170843621826B49000F38BA /* SimpleImageAppDelegate.m */,
 				717083FE218263D2000F38BA /* SimpleImageViewController.h */,
+				712A00802182775E0041CEE6 /* SecondViewController_iPad.xib */,
 				BCB5E80514E605A900701302 /* SimpleImageViewController.m */,
-				7170839021825F2B000F38BA /* FirstViewController.h */,
+				712A0082218277860041CEE6 /* FirstViewController.h */,
 				7170839121825F2B000F38BA /* FirstViewController.m */,
 				7170843A21826C10000F38BA /* SecondViewController.h */,
 				71708402218263D4000F38BA /* SecondViewController.m */,
-				717083B7218261FB000F38BA /* SecondViewController_iPad.xib */,
-				717083C6218261FF000F38BA /* SecondViewController_iPhone.xib */,
 				71708406218263D7000F38BA /* SplashViewController.h */,
 				71708405218263D6000F38BA /* SplashViewController.m */,
 				7170839521825FB2000F38BA /* SplashViewController.xib */,
+				712A008A218279040041CEE6 /* SimpleImageFilter-Prefix.pch */,
 				BCB5E7F314E605A900701302 /* Supporting Files */,
-				7170839B218260C0000F38BA /* lookup_amatorka.png */,
-				BCB5E86414E6F1D700701302 /* Lambeau.jpg */,
-				BCB5E86214E6F05A00701302 /* WID-small.jpg */,
-				BCB5E7F414E605A900701302 /* SimpleImageFilter-Info.plist */,
 				BCB5E7F514E605A900701302 /* InfoPlist.strings */,
-				BCB5E7F814E605A900701302 /* main.m */,
-				BCB5E7FA14E605A900701302 /* SimpleImageFilter-Prefix.pch */,
 			);
 			path = SimpleImageFilter;
 			sourceTree = "<group>";
@@ -322,8 +263,6 @@
 		BCB5E7F314E605A900701302 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				717083C1218261FE000F38BA /* GroovTubeAppIcon144x144.png */,
-				717083BD218261FD000F38BA /* GroovTubeAppIcon152x152.png */,
 				E5066F501855A9F2008C7682 /* Default-568h@2x.png */,
 				71708411218264D6000F38BA /* GroovTubeAppIcon29x29.png */,
 				71708412218264D6000F38BA /* GroovTubeAppIcon40x40.png */,
@@ -338,30 +277,11 @@
 				71708413218264D6000F38BA /* GroovTubeAppIcon144x144.png */,
 				71708418218264D8000F38BA /* GroovTubeAppIcon152x152.png */,
 				717083BF218261FD000F38BA /* Lambeau.jpg */,
-				717083C7218261FF000F38BA /* Launch.xib */,
 				BCC9005E18DA278200A5A5C7 /* lookup_amatorka.png */,
 				BCB3C41B16BCA7B7003D26B0 /* Icon-72.png */,
-				717083CA21826200000F38BA /* Bluetooth-CONNECTED.png */,
-				717083C9218261FF000F38BA /* Bluetooth-DISCONNECTED.png */,
-				717083B0218261F9000F38BA /* Funny-Baby-desktop-Wallpapers.jpg */,
-				717083C2218261FE000F38BA /* giraffe-614141_1280.jpg */,
-				717083D221826202000F38BA /* GroovTubeAppIcon29x29.png */,
-				717083BB218261FC000F38BA /* GroovTubeAppIcon40x40.png */,
-				717083CD21826200000F38BA /* GroovTubeAppIcon50x50.png */,
-				717083B6218261FB000F38BA /* GroovTubeAppIcon57x57.png */,
-				717083CB21826200000F38BA /* GroovTubeAppIcon58x58.png */,
-				717083D621826203000F38BA /* GroovTubeAppIcon72x72.png */,
-				717083BA218261FC000F38BA /* GroovTubeAppIcon76x76.png */,
-				717083CC21826200000F38BA /* GroovTubeAppIcon80x80.png */,
-				717083D321826202000F38BA /* GroovTubeAppIcon100x100.png */,
-				717083CE21826201000F38BA /* GroovTubeAppIcon114x114.png */,
-				717083B3218261FA000F38BA /* GroovTubeAppIcon120x120.png */,
 				717083B5218261FB000F38BA /* lookup_amatorka.png */,
-				717083D021826201000F38BA /* main.m */,
 				717083C3218261FE000F38BA /* SimpleImageFilter-Info.plist */,
 				717083D421826202000F38BA /* SimpleImageFilter-Prefix.pch */,
-				717083BC218261FD000F38BA /* Splash.png */,
-				717083C0218261FE000F38BA /* tick.aiff */,
 				717083D121826201000F38BA /* WID-small.jpg */,
 				BCB3C41C16BCA7B7003D26B0 /* Icon-72@2x.png */,
 				BCB3C41D16BCA7B7003D26B0 /* Icon.png */,
@@ -460,49 +380,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				717083A7218261AA000F38BA /* GCDObjC.h in Resources */,
 				717083A8218261AA000F38BA /* GCDSemaphore.m in Resources */,
-				717083D921826203000F38BA /* Funny-Baby-desktop-Wallpapers.jpg in Resources */,
-				717083EE21826203000F38BA /* Bluetooth-DISCONNECTED.png in Resources */,
-				717083A9218261AA000F38BA /* GCDQueue.h in Resources */,
 				717083AA218261AA000F38BA /* GCDGroup.m in Resources */,
-				717083AB218261AA000F38BA /* GCDMacros.h in Resources */,
-				717083AC218261AA000F38BA /* GCDGroup.h in Resources */,
-				717083ED21826203000F38BA /* Launch.xib in Resources */,
 				717083AD218261AA000F38BA /* GCDQueue.m in Resources */,
-				717083AE218261AA000F38BA /* GCDSemaphore.h in Resources */,
-				717083EB21826203000F38BA /* FirstViewController_iPhone.xib in Resources */,
 				7170839721825FB3000F38BA /* SplashViewController.xib in Resources */,
 				BCB5E7F714E605A900701302 /* InfoPlist.strings in Resources */,
-				717083DB21826203000F38BA /* GroovTubeAppIcon120x120.png in Resources */,
-				BCB5E86314E6F05A00701302 /* WID-small.jpg in Resources */,
-				717083E221826203000F38BA /* GroovTubeAppIcon40x40.png in Resources */,
+				712A007A218274DC0041CEE6 /* FirstViewController_iPad.xib in Resources */,
 				E5066F511855A9F2008C7682 /* Default-568h@2x.png in Resources */,
-				717083F121826203000F38BA /* GroovTubeAppIcon80x80.png in Resources */,
-				717083F721826203000F38BA /* GroovTubeAppIcon29x29.png in Resources */,
-				717083E521826203000F38BA /* FirstViewController_iPad.xib in Resources */,
-				717083DF21826203000F38BA /* SecondViewController_iPad.xib in Resources */,
-				717083E921826203000F38BA /* giraffe-614141_1280.jpg in Resources */,
-				BCB5E86514E6F1D700701302 /* Lambeau.jpg in Resources */,
-				717083E121826203000F38BA /* GroovTubeAppIcon76x76.png in Resources */,
+				712A00812182775F0041CEE6 /* SecondViewController_iPad.xib in Resources */,
 				BCB3C42016BCA7B7003D26B0 /* Icon-72.png in Resources */,
 				BCC9005F18DA278200A5A5C7 /* lookup_amatorka.png in Resources */,
-				717083EF21826203000F38BA /* Bluetooth-CONNECTED.png in Resources */,
-				717083F921826203000F38BA /* GroovTubeAppIcon72x72.png in Resources */,
-				717083F821826203000F38BA /* GroovTubeAppIcon100x100.png in Resources */,
+				712A007B218274DC0041CEE6 /* FirstViewController_iPhone.xib in Resources */,
 				BCB3C42116BCA7B7003D26B0 /* Icon-72@2x.png in Resources */,
-				717083E421826203000F38BA /* GroovTubeAppIcon152x152.png in Resources */,
 				BCB3C42216BCA7B7003D26B0 /* Icon.png in Resources */,
-				717083DE21826203000F38BA /* GroovTubeAppIcon57x57.png in Resources */,
-				717083F221826203000F38BA /* GroovTubeAppIcon50x50.png in Resources */,
-				717083E721826203000F38BA /* tick.aiff in Resources */,
 				BCB3C42316BCA7B7003D26B0 /* Icon@2x.png in Resources */,
 				BCB3C42416BCA7B7003D26B0 /* iTunesArtwork.png in Resources */,
-				717083E321826203000F38BA /* Splash.png in Resources */,
-				717083EC21826203000F38BA /* SecondViewController_iPhone.xib in Resources */,
-				717083F321826203000F38BA /* GroovTubeAppIcon114x114.png in Resources */,
-				717083F021826203000F38BA /* GroovTubeAppIcon58x58.png in Resources */,
-				717083E821826203000F38BA /* GroovTubeAppIcon144x144.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,25 +405,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				712A005D21826E980041CEE6 /* FirstViewController_iPad.xib in Sources */,
-				712A005E21826E980041CEE6 /* FirstViewController_iPhone.xib in Sources */,
-				712A005F21826E980041CEE6 /* main.m in Sources */,
-				712A006021826E980041CEE6 /* SimpleImageAppDelegate.h in Sources */,
-				712A006321826E980041CEE6 /* FirstViewController.h in Sources */,
-				712A006421826E980041CEE6 /* SecondViewController.h in Sources */,
-				712A006621826E980041CEE6 /* SecondViewController_iPad.xib in Sources */,
-				712A006721826E980041CEE6 /* SecondViewController_iPhone.xib in Sources */,
 				712A006A21826E980041CEE6 /* SplashViewController.xib in Sources */,
-				712A005821826E8B0041CEE6 /* BTLEManager.h in Sources */,
-				712A005921826E8B0041CEE6 /* NSData+NSData_Conversion.h in Sources */,
-				712A005A21826E8B0041CEE6 /* MelodyManager.h in Sources */,
-				712A005B21826E8B0041CEE6 /* MelodySmart.h in Sources */,
-				712A005C21826E8B0041CEE6 /* OtaStructs.h in Sources */,
 				7170842B21826572000F38BA /* NSData+NSData_Conversion.m in Sources */,
-				BCB5E7F914E605A900701302 /* main.m in Sources */,
 				7170839321825F2C000F38BA /* FirstViewController.m in Sources */,
 				BCB5E80614E605A900701302 /* SimpleImageViewController.m in Sources */,
 				7170842A21826572000F38BA /* BTLEManager.m in Sources */,
+				712A008D218279490041CEE6 /* NSData+Base64.m in Sources */,
+				712A0090218279650041CEE6 /* BTLEManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

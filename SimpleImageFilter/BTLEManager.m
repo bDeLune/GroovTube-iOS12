@@ -12,7 +12,7 @@
 
 #define ZERO_BOTTOM 1930
 #define ZERO_TOP 1990
-#define DEADZONE 50
+#define DEADZONE 8
 
 
 #define START_STOP_AVERAGE 10
@@ -95,14 +95,13 @@
     
     __unsafe_unretained BTLEManager *weakSelf = self;
     
-    //ios12
-    //dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), _queue, ^{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), _queue, ^{
         if (weakSelf) {
             [weakSelf startScanning];
             
         }
         
-    //});
+    });
     
     //self.pollTimer=[NSTimer scheduledTimerWithTimeInterval:interval target:self selector:@selector(requestBTData:) userInfo:nil repeats:YES];
     [self startTimerWithInterval:interval];
@@ -136,11 +135,11 @@
 -(void)requestData
 {
     
-    //NSLog(@"rssi %i",[[self.melody RSSI]intValue]);
+    NSLog(@"rssi %i",[[self.melody RSSI]intValue]);
     
     NSData* data = [@"?b" dataUsingEncoding:NSUTF8StringEncoding];
     
-    //NSLog(@"melody connected %i",[self.melody isConnected]);
+    NSLog(@"melody connected %i",[self.melody isConnected]);
     if ([self.melody isConnected]==NO) {
         
         [self.melody connect];
@@ -198,20 +197,21 @@
     
     self.melody = [MelodyManager foundDeviceAtIndex:0];
     self.melody.delegate = self;
-    
-    ///ios12
-    //dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), _queue, ^{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.1 * NSEC_PER_SEC)), _queue, ^{
+        
         [self.melody connect];
-    //});
+    });
+    
+    
+    
 }
-
 #pragma mark -
 #pragma mark - LED ON OFF
 
 -(void)ledLeftOn
 {
     NSData* data = [@"l1" dataUsingEncoding:NSUTF8StringEncoding];
-    //NSLog(@"%s",__func__);
+    NSLog(@"%s",__func__);
     
     //[self.melody setDataNotification:YES];
     
@@ -222,7 +222,7 @@
 -(void)ledLeftOff
 {
     
-   // NSLog(@"%s",__func__);
+    NSLog(@"%s",__func__);
     NSData* data = [@"l0" dataUsingEncoding:NSUTF8StringEncoding];
     
     // [self.melody setDataNotification:YES];
@@ -255,25 +255,25 @@
 
 - (void) melodyManagerDiscoveryDidRefresh:(MelodyManager*)manager
 {
-   // NSLog(@"%s",__func__);
+    NSLog(@"%s",__func__);
     
     //[foundDevices reloadData];
-  //  NSLog(@"!!!!!!!!");
+    NSLog(@"!!!!!!!!");
     if ([MelodyManager numberOfFoundDevices]>0) {
         
         
         [self connect];
         
     }
-  //  NSLog(@"%@",[MelodyManager foundDeviceAtIndex:0]);
+    NSLog(@"%@",[MelodyManager foundDeviceAtIndex:0]);
 }
 
 - (void) melodyManagerDiscoveryStatePoweredOff:(MelodyManager*)manager
 {
     
-   // NSLog(@"%s",__func__);
+    NSLog(@"%s",__func__);
     
-   // NSLog(@"BT IS OFF");
+    NSLog(@"BT IS OFF");
 }
 - (void)cancelTimer
 {
@@ -318,14 +318,14 @@
      MMDrawerController * drawerController = (MMDrawerController *)UIAppDelegate.window.rootViewController;
      [drawerController closeDrawerAnimated:YES completion:nil];
      }*/
-  //  NSLog(@"%s",__func__);
+    NSLog(@"%s",__func__);
     
 }
 
 - (void) melodySmartDidDisconnectFromMelody:(MelodySmart*) melody {
     
-   // NSLog(@"disconnected %@",melody);
-  //  NSLog(@"%s",__func__);
+    NSLog(@"disconnected %@",melody);
+    NSLog(@"%s",__func__);
     _isConnected=NO;
     [self.delegate btleManagerDisconnected:self];
     
@@ -340,12 +340,12 @@
     _zeroBottom_=_neutralValueAverage_-_deadZone_;
     //[_neutralArray_ removeAllObjects];
     //_isNeuteralising=YES;
-    
+
 }
 -(void)setRangeReduction:(float)range
 {
     _rangeReduction_=range;
-    
+
 }
 - (void) melodySmart:(MelodySmart*)m didReceiveData:(NSData*)data
 {
@@ -363,7 +363,7 @@
         NSNumber  *num=[NSNumber numberWithInt:outVal];
         [_neutralArray_ addObject:num];
         
-        if ([_neutralArray_ count]>=100) {
+        if ([_neutralArray_ count]>=50) {
             
             _isNeuteralising=NO;
             [self calibrate];
@@ -382,15 +382,14 @@
         
         float percent=(_zeroBottom_-value)/fullmin;
         //float percent=(_zeroBottom_)/fullmin;
-        self.percentOfMax=percent;
         
         if (percent>1.0) {
             percent=1.0;
         }
-        //  NSLog(@"pct == %f\n",percent);
-        // NSLog(@"value == %f\n",value);
-        // // NSLog(@"zero bottom %d\n",_zeroBottom_);
-        //  NSLog(@"full min == %f\n",fullmin);
+      //  NSLog(@"pct == %f\n",percent);
+       // NSLog(@"value == %f\n",value);
+      // // NSLog(@"zero bottom %d\n",_zeroBottom_);
+      //  NSLog(@"full min == %f\n",fullmin);
         if (self.btleState==BTLEState_Stopped) {
             //
             
@@ -420,12 +419,10 @@
         float percent=(value-_zeroTop_)/fullmax;
         
         //sometimes it goes to 1.3
-  //      NSLog(@"pct == %f\n",percent);
-  //      NSLog(@"value == %f\n",value);
-  //      NSLog(@"zero top %d\n",_zeroTop_);
-  //      NSLog(@"full max == %f\n",fullmax);
-        self.percentOfMax=percent;
-        
+        NSLog(@"pct == %f\n",percent);
+        NSLog(@"value == %f\n",value);
+        NSLog(@"zero top %d\n",_zeroTop_);
+        NSLog(@"full max == %f\n",fullmax);
         if (percent>1.0) {
             percent=1.0;
         }
@@ -550,11 +547,11 @@
 }
 
 - (void)melodySmart:(MelodySmart *)melody didDetectBootMode:(BootMode)bootMode {
-    // [otauController didDetectBootMode:bootMode];
+   // [otauController didDetectBootMode:bootMode];
 }
 
 - (void)melodySmart:(MelodySmart *)melody didUpdateOtauState:(OtauState)state withProgress:(int)percent {
-    // [otauController didUpdateOtauState:state percent:percent];
+   // [otauController didUpdateOtauState:state percent:percent];
 }
 
 

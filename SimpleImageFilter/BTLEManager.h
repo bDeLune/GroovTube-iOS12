@@ -125,7 +125,6 @@ typedef enum BT_LE_State:NSUInteger
 @property(nonatomic,unsafe_unretained)id<BTLEManagerDelegate>delegate;
 @property BT_LE_State  btleState;
 @property BOOL isConnected;
-@property float percentOfMax;
 + (instancetype)sharedInstance;
 
 @end

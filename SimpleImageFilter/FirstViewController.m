@@ -28,12 +28,12 @@
 #import "GPUImagePicture.h"
 #import "GPUImageView.h"
 #import "GPUImageExposureFilter.h"
-
-#import "GPUImageTiltShiftFilter.h"
-#import "GPUImageContrastFilter.h"*/
-#import "BTLEManager.h"
+ #import "GPUImageTiltShiftFilter.h"
+ #import "GPUImageContrastFilter.h"
+ */
 #import <CoreMIDI/CoreMIDI.h>
 #import <AudioToolbox/AudioToolbox.h>
+#import "BTLEManager.h"
 
 static void	MyMIDIReadProc(const MIDIPacketList *pktlist, void *refCon, void *connRefCon);
 void MyMIDINotifyProc (const MIDINotification  *message, void *refCon);
