@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash.png" translatesAutoresizingMaskIntoConstraints="NO" id="GDc-vv-ZLB">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="GDc-vv-ZLB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Skh-MU-7St"/>
+                <constraint firstAttribute="bottom" secondItem="GDc-vv-ZLB" secondAttribute="bottom" id="gpu-qf-suN"/>
+                <constraint firstAttribute="trailing" secondItem="GDc-vv-ZLB" secondAttribute="trailing" id="jNd-Ws-SO8"/>
+                <constraint firstItem="GDc-vv-ZLB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="xIs-ON-InT"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="GDc-vv-ZLB"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="Skh-MU-7St"/>
+                    <exclude reference="gpu-qf-suN"/>
+                    <exclude reference="jNd-Ws-SO8"/>
+                    <exclude reference="xIs-ON-InT"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular">
+                <mask key="subviews">
+                    <include reference="GDc-vv-ZLB"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="Skh-MU-7St"/>
+                    <include reference="gpu-qf-suN"/>
+                    <include reference="jNd-Ws-SO8"/>
+                    <include reference="xIs-ON-InT"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="Splash.png" width="768" height="1024"/>
+    </resources>
+</document>
