@@ -1,34 +1,64 @@
 {
   "images" : [
     {
+      "size" : "20x20",
       "idiom" : "ipad",
-      "scale" : "1x",
-      "size" : "29x29"
+      "filename" : "GroovTubeAppIcon40x40-1.png",
+      "scale" : "1x"
     },
     {
+      "size" : "20x20",
       "idiom" : "ipad",
-      "scale" : "2x",
-      "size" : "29x29"
+      "filename" : "GroovTubeAppIcon40x40.png",
+      "scale" : "2x"
     },
     {
+      "size" : "29x29",
       "idiom" : "ipad",
-      "scale" : "1x",
-      "size" : "76x76"
+      "filename" : "GroovTubeAppIcon29x29-2.png",
+      "scale" : "1x"
     },
     {
+      "size" : "29x29",
       "idiom" : "ipad",
-      "scale" : "2x",
-      "size" : "76x76"
+      "filename" : "GroovTubeAppIcon58x58.png",
+      "scale" : "2x"
     },
     {
+      "size" : "40x40",
       "idiom" : "ipad",
-      "scale" : "1x",
-      "size" : "40x40"
+      "filename" : "GroovTubeAppIcon40x40-2.png",
+      "scale" : "1x"
     },
     {
+      "size" : "40x40",
       "idiom" : "ipad",
-      "scale" : "2x",
-      "size" : "40x40"
+      "filename" : "GroovTubeAppIcon80x80.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "GroovTubeAppIcon76x76.png",
+      "scale" : "1x"
+    },
+    {
+      "size" : "76x76",
+      "idiom" : "ipad",
+      "filename" : "GroovTubeAppIcon152x152.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "83.5x83.5",
+      "idiom" : "ipad",
+      "filename" : "GroovTubeAppIcon152x152-1.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "1024x1024",
+      "idiom" : "ios-marketing",
+      "filename" : "GroovTubeAppIcon152x152-2.png",
+      "scale" : "1x"
     }
   ],
   "info" : {

@@ -20,6 +20,13 @@
 		71325E60218A5D1F00F0D6E6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71708402218263D4000F38BA /* SecondViewController.m */; };
 		71325E61218A5D2A00F0D6E6 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71708405218263D6000F38BA /* SplashViewController.m */; };
 		71325E64218A5F6700F0D6E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71325E63218A5F6700F0D6E6 /* Images.xcassets */; };
+		71325E66218A609C00F0D6E6 /* Launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71325E65218A609C00F0D6E6 /* Launch.xib */; };
+		71325E68218A613200F0D6E6 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71325E67218A613100F0D6E6 /* Media.xcassets */; };
+		71325E6A218A626100F0D6E6 /* giraffe-614141_1280.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71325E69218A626100F0D6E6 /* giraffe-614141_1280.jpg */; };
+		71325E6F218A62CC00F0D6E6 /* Funny-Baby-desktop-Wallpapers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 71325E6B218A62CA00F0D6E6 /* Funny-Baby-desktop-Wallpapers.jpg */; };
+		71325E70218A62CC00F0D6E6 /* Bluetooth-CONNECTED.png in Resources */ = {isa = PBXBuildFile; fileRef = 71325E6C218A62CB00F0D6E6 /* Bluetooth-CONNECTED.png */; };
+		71325E71218A62CC00F0D6E6 /* Bluetooth-DISCONNECTED.png in Resources */ = {isa = PBXBuildFile; fileRef = 71325E6D218A62CB00F0D6E6 /* Bluetooth-DISCONNECTED.png */; };
+		71325E72218A62CC00F0D6E6 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 71325E6E218A62CB00F0D6E6 /* Splash.png */; };
 		7170839321825F2C000F38BA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7170839121825F2B000F38BA /* FirstViewController.m */; };
 		7170839721825FB3000F38BA /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7170839521825FB2000F38BA /* SplashViewController.xib */; };
 		7170842A21826572000F38BA /* BTLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7170842721826571000F38BA /* BTLEManager.m */; };
@@ -85,6 +92,13 @@
 		712A0098218279CD0041CEE6 /* NSData+Base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 		712A009921827AD90041CEE6 /* SimpleImageFilter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimpleImageFilter-Info.plist"; sourceTree = "<group>"; };
 		71325E63218A5F6700F0D6E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		71325E65218A609C00F0D6E6 /* Launch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Launch.xib; sourceTree = "<group>"; };
+		71325E67218A613100F0D6E6 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		71325E69218A626100F0D6E6 /* giraffe-614141_1280.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "giraffe-614141_1280.jpg"; sourceTree = "<group>"; };
+		71325E6B218A62CA00F0D6E6 /* Funny-Baby-desktop-Wallpapers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Funny-Baby-desktop-Wallpapers.jpg"; sourceTree = "<group>"; };
+		71325E6C218A62CB00F0D6E6 /* Bluetooth-CONNECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bluetooth-CONNECTED.png"; sourceTree = "<group>"; };
+		71325E6D218A62CB00F0D6E6 /* Bluetooth-DISCONNECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bluetooth-DISCONNECTED.png"; sourceTree = "<group>"; };
+		71325E6E218A62CB00F0D6E6 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
 		7170839121825F2B000F38BA /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		7170839521825FB2000F38BA /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
 		7170839F218261A6000F38BA /* GCDObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GCDObjC.h; path = GCDObjC/GCDObjC.h; sourceTree = "<group>"; };
@@ -206,6 +220,7 @@
 		BCB5E7DD14E605A900701302 = {
 			isa = PBXGroup;
 			children = (
+				71325E65218A609C00F0D6E6 /* Launch.xib */,
 				7170843B21826C1E000F38BA /* BTLEManager */,
 				71708431218265CB000F38BA /* GCDGroup */,
 				BCB5E7F214E605A900701302 /* SimpleImageFilter */,
@@ -256,6 +271,7 @@
 				71708405218263D6000F38BA /* SplashViewController.m */,
 				7170839521825FB2000F38BA /* SplashViewController.xib */,
 				712A008A218279040041CEE6 /* SimpleImageFilter-Prefix.pch */,
+				71325E67218A613100F0D6E6 /* Media.xcassets */,
 				BCB5E7F314E605A900701302 /* Supporting Files */,
 				BCB5E7F514E605A900701302 /* InfoPlist.strings */,
 				71325E63218A5F6700F0D6E6 /* Images.xcassets */,
@@ -266,6 +282,11 @@
 		BCB5E7F314E605A900701302 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				71325E6C218A62CB00F0D6E6 /* Bluetooth-CONNECTED.png */,
+				71325E6D218A62CB00F0D6E6 /* Bluetooth-DISCONNECTED.png */,
+				71325E6B218A62CA00F0D6E6 /* Funny-Baby-desktop-Wallpapers.jpg */,
+				71325E6E218A62CB00F0D6E6 /* Splash.png */,
+				71325E69218A626100F0D6E6 /* giraffe-614141_1280.jpg */,
 				E5066F501855A9F2008C7682 /* Default-568h@2x.png */,
 				71708411218264D6000F38BA /* GroovTubeAppIcon29x29.png */,
 				71708412218264D6000F38BA /* GroovTubeAppIcon40x40.png */,
@@ -276,8 +297,8 @@
 				71708414218264D7000F38BA /* GroovTubeAppIcon80x80.png */,
 				71708415218264D7000F38BA /* GroovTubeAppIcon100x100.png */,
 				71708416218264D7000F38BA /* GroovTubeAppIcon114x114.png */,
-				71708410218264D6000F38BA /* GroovTubeAppIcon120x120.png */,
 				71708413218264D6000F38BA /* GroovTubeAppIcon144x144.png */,
+				71708410218264D6000F38BA /* GroovTubeAppIcon120x120.png */,
 				71708418218264D8000F38BA /* GroovTubeAppIcon152x152.png */,
 				717083BF218261FD000F38BA /* Lambeau.jpg */,
 				BCC9005E18DA278200A5A5C7 /* lookup_amatorka.png */,
@@ -385,15 +406,22 @@
 			files = (
 				7170839721825FB3000F38BA /* SplashViewController.xib in Resources */,
 				712A007A218274DC0041CEE6 /* FirstViewController_iPad.xib in Resources */,
+				71325E6A218A626100F0D6E6 /* giraffe-614141_1280.jpg in Resources */,
+				71325E70218A62CC00F0D6E6 /* Bluetooth-CONNECTED.png in Resources */,
+				71325E68218A613200F0D6E6 /* Media.xcassets in Resources */,
 				E5066F511855A9F2008C7682 /* Default-568h@2x.png in Resources */,
 				712A00812182775F0041CEE6 /* SecondViewController_iPad.xib in Resources */,
+				71325E66218A609C00F0D6E6 /* Launch.xib in Resources */,
 				BCB3C42016BCA7B7003D26B0 /* Icon-72.png in Resources */,
 				BCC9005F18DA278200A5A5C7 /* lookup_amatorka.png in Resources */,
 				712A007B218274DC0041CEE6 /* FirstViewController_iPhone.xib in Resources */,
+				71325E71218A62CC00F0D6E6 /* Bluetooth-DISCONNECTED.png in Resources */,
 				BCB3C42116BCA7B7003D26B0 /* Icon-72@2x.png in Resources */,
 				BCB3C42216BCA7B7003D26B0 /* Icon.png in Resources */,
 				71325E64218A5F6700F0D6E6 /* Images.xcassets in Resources */,
 				BCB3C42316BCA7B7003D26B0 /* Icon@2x.png in Resources */,
+				71325E72218A62CC00F0D6E6 /* Splash.png in Resources */,
+				71325E6F218A62CC00F0D6E6 /* Funny-Baby-desktop-Wallpapers.jpg in Resources */,
 				BCB3C42416BCA7B7003D26B0 /* iTunesArtwork.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,7 +545,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				DEVELOPMENT_TEAM = 7HMHYHNLFC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleImageFilter/SimpleImageFilter-Prefix.pch";
@@ -538,7 +566,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				DEVELOPMENT_TEAM = 7HMHYHNLFC;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleImageFilter/SimpleImageFilter-Prefix.pch";
