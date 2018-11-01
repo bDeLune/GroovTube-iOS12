@@ -27,6 +27,7 @@
 		71325E70218A62CC00F0D6E6 /* Bluetooth-CONNECTED.png in Resources */ = {isa = PBXBuildFile; fileRef = 71325E6C218A62CB00F0D6E6 /* Bluetooth-CONNECTED.png */; };
 		71325E71218A62CC00F0D6E6 /* Bluetooth-DISCONNECTED.png in Resources */ = {isa = PBXBuildFile; fileRef = 71325E6D218A62CB00F0D6E6 /* Bluetooth-DISCONNECTED.png */; };
 		71325E72218A62CC00F0D6E6 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 71325E6E218A62CB00F0D6E6 /* Splash.png */; };
+		71325E74218A638600F0D6E6 /* tick.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 71325E73218A638600F0D6E6 /* tick.aiff */; };
 		7170839321825F2C000F38BA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7170839121825F2B000F38BA /* FirstViewController.m */; };
 		7170839721825FB3000F38BA /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7170839521825FB2000F38BA /* SplashViewController.xib */; };
 		7170842A21826572000F38BA /* BTLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7170842721826571000F38BA /* BTLEManager.m */; };
@@ -99,6 +100,7 @@
 		71325E6C218A62CB00F0D6E6 /* Bluetooth-CONNECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bluetooth-CONNECTED.png"; sourceTree = "<group>"; };
 		71325E6D218A62CB00F0D6E6 /* Bluetooth-DISCONNECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bluetooth-DISCONNECTED.png"; sourceTree = "<group>"; };
 		71325E6E218A62CB00F0D6E6 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
+		71325E73218A638600F0D6E6 /* tick.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = tick.aiff; sourceTree = "<group>"; };
 		7170839121825F2B000F38BA /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		7170839521825FB2000F38BA /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
 		7170839F218261A6000F38BA /* GCDObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GCDObjC.h; path = GCDObjC/GCDObjC.h; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 			isa = PBXGroup;
 			children = (
 				71325E6C218A62CB00F0D6E6 /* Bluetooth-CONNECTED.png */,
+				71325E73218A638600F0D6E6 /* tick.aiff */,
 				71325E6D218A62CB00F0D6E6 /* Bluetooth-DISCONNECTED.png */,
 				71325E6B218A62CA00F0D6E6 /* Funny-Baby-desktop-Wallpapers.jpg */,
 				71325E6E218A62CB00F0D6E6 /* Splash.png */,
@@ -412,6 +415,7 @@
 				E5066F511855A9F2008C7682 /* Default-568h@2x.png in Resources */,
 				712A00812182775F0041CEE6 /* SecondViewController_iPad.xib in Resources */,
 				71325E66218A609C00F0D6E6 /* Launch.xib in Resources */,
+				71325E74218A638600F0D6E6 /* tick.aiff in Resources */,
 				BCB3C42016BCA7B7003D26B0 /* Icon-72.png in Resources */,
 				BCC9005F18DA278200A5A5C7 /* lookup_amatorka.png in Resources */,
 				712A007B218274DC0041CEE6 /* FirstViewController_iPhone.xib in Resources */,
