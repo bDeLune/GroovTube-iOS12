@@ -28,6 +28,8 @@
 		71325E71218A62CC00F0D6E6 /* Bluetooth-DISCONNECTED.png in Resources */ = {isa = PBXBuildFile; fileRef = 71325E6D218A62CB00F0D6E6 /* Bluetooth-DISCONNECTED.png */; };
 		71325E72218A62CC00F0D6E6 /* Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 71325E6E218A62CB00F0D6E6 /* Splash.png */; };
 		71325E74218A638600F0D6E6 /* tick.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 71325E73218A638600F0D6E6 /* tick.aiff */; };
+		71578480218BBAB600310BEE /* GroovTube_app_icon1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 7157847F218BBAB600310BEE /* GroovTube_app_icon1024x1024.png */; };
+		71578486218BBDBD00310BEE /* icon167x167.png in Resources */ = {isa = PBXBuildFile; fileRef = 71578485218BBDBD00310BEE /* icon167x167.png */; };
 		7170839321825F2C000F38BA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7170839121825F2B000F38BA /* FirstViewController.m */; };
 		7170839721825FB3000F38BA /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7170839521825FB2000F38BA /* SplashViewController.xib */; };
 		7170842A21826572000F38BA /* BTLEManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7170842721826571000F38BA /* BTLEManager.m */; };
@@ -101,6 +103,8 @@
 		71325E6D218A62CB00F0D6E6 /* Bluetooth-DISCONNECTED.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bluetooth-DISCONNECTED.png"; sourceTree = "<group>"; };
 		71325E6E218A62CB00F0D6E6 /* Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Splash.png; sourceTree = "<group>"; };
 		71325E73218A638600F0D6E6 /* tick.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = tick.aiff; sourceTree = "<group>"; };
+		7157847F218BBAB600310BEE /* GroovTube_app_icon1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GroovTube_app_icon1024x1024.png; sourceTree = "<group>"; };
+		71578485218BBDBD00310BEE /* icon167x167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon167x167.png; sourceTree = "<group>"; };
 		7170839121825F2B000F38BA /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		7170839521825FB2000F38BA /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
 		7170839F218261A6000F38BA /* GCDObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GCDObjC.h; path = GCDObjC/GCDObjC.h; sourceTree = "<group>"; };
@@ -145,7 +149,7 @@
 		BCB3C41D16BCA7B7003D26B0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../SharedIcons/Icon.png; sourceTree = "<group>"; };
 		BCB3C41E16BCA7B7003D26B0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../../SharedIcons/Icon@2x.png"; sourceTree = "<group>"; };
 		BCB3C41F16BCA7B7003D26B0 /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iTunesArtwork.png; path = ../../SharedIcons/iTunesArtwork.png; sourceTree = "<group>"; };
-		BCB5E7E814E605A900701302 /* SimpleImageFilter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleImageFilter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB5E7E814E605A900701302 /* GroovTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroovTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB5E7EC14E605A900701302 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BCB5E7EE14E605A900701302 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BCB5E7F014E605A900701302 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -234,7 +238,7 @@
 		BCB5E7E914E605A900701302 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BCB5E7E814E605A900701302 /* SimpleImageFilter.app */,
+				BCB5E7E814E605A900701302 /* GroovTube.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -300,10 +304,12 @@
 				71708414218264D7000F38BA /* GroovTubeAppIcon80x80.png */,
 				71708415218264D7000F38BA /* GroovTubeAppIcon100x100.png */,
 				71708416218264D7000F38BA /* GroovTubeAppIcon114x114.png */,
+				71578485218BBDBD00310BEE /* icon167x167.png */,
 				71708413218264D6000F38BA /* GroovTubeAppIcon144x144.png */,
 				71708410218264D6000F38BA /* GroovTubeAppIcon120x120.png */,
 				71708418218264D8000F38BA /* GroovTubeAppIcon152x152.png */,
 				717083BF218261FD000F38BA /* Lambeau.jpg */,
+				7157847F218BBAB600310BEE /* GroovTube_app_icon1024x1024.png */,
 				BCC9005E18DA278200A5A5C7 /* lookup_amatorka.png */,
 				BCB3C41B16BCA7B7003D26B0 /* Icon-72.png */,
 				717083B5218261FB000F38BA /* lookup_amatorka.png */,
@@ -330,9 +336,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BCB5E7E714E605A900701302 /* SimpleImageFilter */ = {
+		BCB5E7E714E605A900701302 /* GroovTube */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BCB5E80914E605A900701302 /* Build configuration list for PBXNativeTarget "SimpleImageFilter" */;
+			buildConfigurationList = BCB5E80914E605A900701302 /* Build configuration list for PBXNativeTarget "GroovTube" */;
 			buildPhases = (
 				BCB5E7E414E605A900701302 /* Sources */,
 				BCB5E7E514E605A900701302 /* Frameworks */,
@@ -343,9 +349,9 @@
 			dependencies = (
 				BCF867291725A6AD00912E34 /* PBXTargetDependency */,
 			);
-			name = SimpleImageFilter;
+			name = GroovTube;
 			productName = SimpleImageFilter;
-			productReference = BCB5E7E814E605A900701302 /* SimpleImageFilter.app */;
+			productReference = BCB5E7E814E605A900701302 /* GroovTube.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -380,7 +386,7 @@
 			);
 			projectRoot = "";
 			targets = (
-				BCB5E7E714E605A900701302 /* SimpleImageFilter */,
+				BCB5E7E714E605A900701302 /* GroovTube */,
 			);
 		};
 /* End PBXProject section */
@@ -420,7 +426,9 @@
 				BCC9005F18DA278200A5A5C7 /* lookup_amatorka.png in Resources */,
 				712A007B218274DC0041CEE6 /* FirstViewController_iPhone.xib in Resources */,
 				71325E71218A62CC00F0D6E6 /* Bluetooth-DISCONNECTED.png in Resources */,
+				71578486218BBDBD00310BEE /* icon167x167.png in Resources */,
 				BCB3C42116BCA7B7003D26B0 /* Icon-72@2x.png in Resources */,
+				71578480218BBAB600310BEE /* GroovTube_app_icon1024x1024.png in Resources */,
 				BCB3C42216BCA7B7003D26B0 /* Icon.png in Resources */,
 				71325E64218A5F6700F0D6E6 /* Images.xcassets in Resources */,
 				BCB3C42316BCA7B7003D26B0 /* Icon@2x.png in Resources */,
@@ -601,7 +609,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BCB5E80914E605A900701302 /* Build configuration list for PBXNativeTarget "SimpleImageFilter" */ = {
+		BCB5E80914E605A900701302 /* Build configuration list for PBXNativeTarget "GroovTube" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BCB5E80A14E605A900701302 /* Debug */,

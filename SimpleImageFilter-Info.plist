@@ -19,13 +19,17 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>4</string>
+	<string>4.1</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>3</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>The GroovTube device would like to access your bluetooth</string>
+	<key>NSCameraUsageDescription</key>
+	<string>GroovTube would like to access your camera roll</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>GroovTube would like to access your photos.</string>
 	<key>UIFileSharingEnabled</key>
@@ -38,6 +42,8 @@
 	<array>
 		<string>opengles-2</string>
 	</array>
+	<key>UIRequiresFullScreen</key>
+	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
