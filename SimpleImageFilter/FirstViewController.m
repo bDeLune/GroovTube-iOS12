@@ -282,18 +282,7 @@ typedef void(^RunTimer)(void);
 
 -(void)viewWillAppear:(BOOL)animated    //was viewdidappear
 {
-    if (!displayLink) {
-        [self setupDisplayFiltering];
-        displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(updateimage)];
-        [displayLink addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
-        animationRunning = YES;
-        [displayLink setPreferredFramesPerSecond:20];
-        acceleration=0.1;
-        distance=0;
-        time=0;
-        [self toggleDirection:nil];
-        [self toggleDirection:nil];
-    }
+
 }
 
 - (void)viewDidLoad
@@ -306,6 +295,19 @@ typedef void(^RunTimer)(void);
     targetRadius=0;
     defaultScale=1.5;
     defaultRadius=0;
+    
+    if (!displayLink) {
+        [self setupDisplayFiltering];
+        displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(updateimage)];
+        [displayLink addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
+        animationRunning = YES;
+        [displayLink setPreferredFramesPerSecond:20];
+        acceleration=0.1;
+        distance=0;
+        time=0;
+        [self toggleDirection:nil];
+        [self toggleDirection:nil];
+    }
 }
 
 -(void)updateimage
